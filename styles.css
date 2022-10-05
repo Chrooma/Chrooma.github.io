@@ -162,3 +162,10 @@ main {
 .picture img {
   border-radius: 10px;
 }
+
+video {
+  position: relative;
+  size: 100%;
+  width: 100%;
+  overflow: hidden;
+}
