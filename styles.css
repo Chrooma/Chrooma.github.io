@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  padding: 0;
+  text-decoration: none; 
+}
+
+body {
+  background-color: #c9c6c7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.upperLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.upperLeft img {
+  border-radius: 0px;
+}
+
+.upperRight {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.upperRight text, address{
+  font-size: 20px;
+}
+.upperRight text {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+
+.upperRight address {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+  margin-right: 30px;
+  
+}
+.socials {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(white-marble.jpg);
+  border-radius: 10px;
+}
+
+.socials h1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.socials a{
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(50% - 180px);
+}
+
+.skills {
+  background-image: url(white-marble.jpg);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills h1 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills ul h1 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+}
+
+.skills ul p {
+  font-style: italic;
+}
+
+.xp {
+  background-image: url(white-marble.jpg);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.xp ol {
+  list-style: none;
+}
+
+.xp h1 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.xp ol h1 {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+}
+
+.xp ol p {
+  font-style: italic;
+}
+
+.picture {
+  margin-left: 30px;
+}
+
+.picture img {
+  border-radius: 10px;
+}
+
+video {
+  position: relative;
+  size: 100%;
+  width: 100%;
+  overflow: hidden;
+}
